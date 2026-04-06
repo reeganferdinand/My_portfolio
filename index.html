@@ -3,9 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reegan Ferdinand | AI Engineer & Full Stack Developer</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons for elegant icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>MY PortFolio</h1>
+    <!-- Background Elements -->
+    <div class="bg-mesh"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Reegan<span class="text-gradient">.AI</span></div>
+        
+        <!-- Desktop Menu -->
+        <ul class="nav-links desktop-menu">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <!-- Mobile Menu Triger -->
+        <div class="mobile-menu-btn">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero reveal active">
+        <div class="hero-content">
+            <span class="hero-subtitle">Hello, I'm Reegan Ferdinand K</span>
+            <h1><span class="text-gradient">Building AI-driven</span> solutions<br>for real-world impact</h1>
+            <p class="hero-description">
+                AIML student passionate about solving real-world problems through AI, full-stack development, and innovative products. Exploring the intersection between data, algorithms, and human-centric design.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <i class='bx bx-briefcase-alt-2'></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class='bx bx-envelope'></i> Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+        <h2 class="section-title"><span>About</span> Me</h2>
+        <div class="about-content">
+            <div class="about-text glass-card">
+                <p>
+                    I am a second-year AIML student at Sri Eshwar College of Engineering with a strong interest in Artificial Intelligence, Machine Learning, and Full Stack Development.
+                </p>
+                <p>
+                    I enjoy building impactful, real-world solutions that combine technology with social good. My work focuses on AI-powered applications, civic-tech platforms, and scalable systems.
+                </p>
+                <p>
+                    I actively participate in hackathons and continuously improve my problem-solving skills through platforms like LeetCode and CodeChef.
+                </p>
+            </div>
+            <div class="about-stats glass-card">
+                <div class="stat-box">
+                    <div class="stat-number text-gradient">1428</div>
+                    <div class="stat-label">LeetCode Rating</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number text-gradient">800+</div>
+                    <div class="stat-label">SkillRack Solved</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number text-gradient">3+</div>
+                    <div class="stat-label">Major Projects</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number text-gradient">4</div>
+                    <div class="stat-label">Hackathon Wins</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="reveal">
+        <h2 class="section-title"><span>Journey</span> & Education</h2>
+        <div class="timeline">
+            <!-- Internship (Experience) -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2025</span>
+                <div class="timeline-content glass-card">
+                    <h3>MERN Stack Intern</h3>
+                    <h4>Better Tomorrow</h4>
+                    <ul>
+                        <li>Developed "SmartQ", a smart queue management system.</li>
+                        <li>Implemented digital token system, real-time tracking, and automated notifications.</li>
+                        <li>Improved efficiency and significantly reduced waiting time.</li>
+                        <li><strong>Tech Stack:</strong> MongoDB, Express.js, React.js, Node.js</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- College -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2024 - 2028</span>
+                <div class="timeline-content glass-card">
+                    <h3>B.E CSE (AIML)</h3>
+                    <h4>Sri Eshwar College of Engineering</h4>
+                    <p>CGPA: 8.8 (till 3rd semester)</p>
+                </div>
+            </div>
+
+            <!-- HSC -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2023 - 2024</span>
+                <div class="timeline-content glass-card">
+                    <h3>HSC</h3>
+                    <h4>Vetri Vikaas Public School</h4>
+                    <p>Score: 94%</p>
+                </div>
+            </div>
+
+            <!-- SSLC -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2021 - 2022</span>
+                <div class="timeline-content glass-card">
+                    <h3>SSLC</h3>
+                    <h4>Vetri Vikaas Public School</h4>
+                    <p>Score: 94%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+        <h2 class="section-title"><span>Featured</span> Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card reveal">
+                <div class="project-top">
+                    <i class='bx bx-folder-open folder-icon'></i>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <h3>Nagrik Aur Samvidhan</h3>
+                <p>Gamified civic learning app simplifying the Indian Constitution. Includes interactive quizzes and visual learning modules. An AI/NLP system maps user problems to relevant laws.</p>
+                <div class="tech-list">
+                    <span class="tech-badge">Flutter</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">NLP</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card reveal">
+                <div class="project-top">
+                    <i class='bx bx-folder-open folder-icon'></i>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <h3>AI-Based Sports Talent Assessment</h3>
+                <p>AI-powered athlete performance assessment using MediaPipe for pose detection and repetition counting. Features a Global Athlete Score (GAS) ranking system and coach dashboard.</p>
+                <div class="tech-list">
+                    <span class="tech-badge">Flutter</span>
+                    <span class="tech-badge">MediaPipe</span>
+                    <span class="tech-badge">Pose Estimation</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass-card reveal">
+                <div class="project-top">
+                    <i class='bx bx-folder-open folder-icon'></i>
+                    <div class="project-links">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <h3>SmartQ Manage System</h3>
+                <p>Full-stack digital queue handling system designed to eliminate long waiting lines. Implemented with real-time updates and automated customer notifications.</p>
+                <div class="tech-list">
+                    <span class="tech-badge">MongoDB</span>
+                    <span class="tech-badge">Express</span>
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Node.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Events -->
+    <section id="achievements" class="reveal">
+        <h2 class="section-title"><span>Achievements</span> & Events</h2>
+        <div class="badge-grid">
+            <div class="icon-badge-card glass-card reveal">
+                <i class='bx bx-trophy'></i>
+                <div>
+                    <h4>Kalam Awards Winner</h4>
+                    <p>World Youth Federation, 2024</p>
+                </div>
+            </div>
+            <div class="icon-badge-card glass-card reveal">
+                <i class='bx bx-medal'></i>
+                <div>
+                    <h4>TECHFEST 2024 Winner</h4>
+                    <p>For Nagrik Aur Samvidhan</p>
+                </div>
+            </div>
+            <div class="icon-badge-card glass-card reveal">
+                <i class='bx bxs-award'></i>
+                <div>
+                    <h4>Top Team</h4>
+                    <p>HACK’24 (2025)</p>
+                </div>
+            </div>
+            <div class="icon-badge-card glass-card reveal">
+                <i class='bx bx-bot'></i>
+                <div>
+                    <h4>AI Model Built</h4>
+                    <p>Waste classification model using MobileNetV2</p>
+                </div>
+            </div>
+            <div class="icon-badge-card glass-card reveal">
+                <i class='bx bx-time-five'></i>
+                <div>
+                    <h4>Selfie Hackathon</h4>
+                    <p>Secured 3rd place in 1st year building robust prototypes under constraints.</p>
+                </div>
+            </div>
+            <div class="icon-badge-card glass-card reveal">
+                <i class='bx bx-chip'></i>
+                <div>
+                    <h4>Chakravyuha Event</h4>
+                    <p>Developed Smart Nav System using ESP32 & software logic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Certifications Section -->
+    <section id="skills" class="reveal">
+        <h2 class="section-title"><span>Technical</span> Arsenal</h2>
+        <div class="skills-container">
+            <div class="skill-category glass-card reveal">
+                <h3><i class='bx bx-code-alt'></i> Programming</h3>
+                <div class="skill-list">
+                    <span class="skill-item">C</span>
+                    <span class="skill-item">C++</span>
+                    <span class="skill-item">Python</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card reveal">
+                <h3><i class='bx bx-brain'></i> Core Concepts</h3>
+                <div class="skill-list">
+                    <span class="skill-item">Data Structures & Algorithms</span>
+                    <span class="skill-item">Object-Oriented Programming</span>
+                    <span class="skill-item">AWS Basics</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card reveal">
+                <h3><i class='bx bx-window-alt'></i> Web Development</h3>
+                <div class="skill-list">
+                    <span class="skill-item">HTML5</span>
+                    <span class="skill-item">CSS3</span>
+                    <span class="skill-item">MERN Stack</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card reveal">
+                <h3><i class='bx bx-data'></i> Data & AI</h3>
+                <div class="skill-list">
+                    <span class="skill-item">Pandas</span>
+                    <span class="skill-item">NumPy</span>
+                    <span class="skill-item">Matplotlib</span>
+                    <span class="skill-item">NLP & ML Basic Models</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card reveal">
+                <h3><i class='bx bx-wrench'></i> Tools</h3>
+                <div class="skill-list">
+                    <span class="skill-item">GitHub</span>
+                    <span class="skill-item">VS Code</span>
+                    <span class="skill-item">Vercel</span>
+                    <span class="skill-item">Render</span>
+                    <span class="skill-item">Canva</span>
+                </div>
+            </div>
+            
+            <div class="skill-category glass-card reveal">
+                <h3><i class='bx bx-certification'></i> Certifications & Profiles</h3>
+                <div class="skill-list">
+                    <span class="skill-item">C++ Programming</span>
+                    <span class="skill-item">Mastering DSA using C/C++</span>
+                    <span class="skill-item">CodeChef: 1141 Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <h2 class="section-title"><span>Get In</span> Touch</h2>
+        <div class="contact glass-card">
+            <p>I'm always open for new opportunities, hackathons, and exciting collaborations. Whether you have a question or just want to quickly say hi, I'll try my best to get back to you!</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <a href="mailto:reeganferdinand.k2024aiml@sece.ac.in">reeganferdinand.k2024aiml@sece.ac.in</a>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-phone-call'></i>
+                    <span>+91 90254 74684</span>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-btn" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="#" class="social-btn" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with <i class='bx bxs-heart' style="color: var(--accent-tertiary);"></i> by Reegan Ferdinand.</p>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="js/script.js"></script>
 </body>
 </html>
